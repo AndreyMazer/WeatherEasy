@@ -24,6 +24,9 @@ function App() {
           setWeather(result);
           setCity('');
           console.log(result);
+        })
+        .catch(error => {
+          console.error('Ошибка при выполнении запроса:', error);
         });
     }
   }
