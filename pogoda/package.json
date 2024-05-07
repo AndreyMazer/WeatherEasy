@@ -1,6 +1,6 @@
 {
   "homepage": "https://andreymazer.github.io/WeatherEasy1-main/",
-  "name": "pogoda",
+  "name": "package-lock.json",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,9 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
