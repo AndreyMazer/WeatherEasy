@@ -7,7 +7,7 @@ const api = {
 }
 
 function App() {
-
+  const [city, setCity] = useState('');
   // действия при изменении города в поле ввода
   const [city, setCity] = useState('');
 
