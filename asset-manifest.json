@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/WeatherEasy1-main/static/css/main.3dddda0f.css",
-    "main.js": "/WeatherEasy1-main/static/js/main.c944e878.js",
+    "main.js": "/WeatherEasy1-main/static/js/main.fb9a4be9.js",
     "static/js/453.3f9f735f.chunk.js": "/WeatherEasy1-main/static/js/453.3f9f735f.chunk.js",
     "static/media/холодно.png": "/WeatherEasy1-main/static/media/холодно.c8cbdc7edb3b99a10e38.png",
     "static/media/класс3.png": "/WeatherEasy1-main/static/media/класс3.6d1608c4e0c7267a2dfb.png",
     "index.html": "/WeatherEasy1-main/index.html",
     "main.3dddda0f.css.map": "/WeatherEasy1-main/static/css/main.3dddda0f.css.map",
-    "main.c944e878.js.map": "/WeatherEasy1-main/static/js/main.c944e878.js.map",
+    "main.fb9a4be9.js.map": "/WeatherEasy1-main/static/js/main.fb9a4be9.js.map",
     "453.3f9f735f.chunk.js.map": "/WeatherEasy1-main/static/js/453.3f9f735f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3dddda0f.css",
-    "static/js/main.c944e878.js"
+    "static/js/main.fb9a4be9.js"
   ]
 }
