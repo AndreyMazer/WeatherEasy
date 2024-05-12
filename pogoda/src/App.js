@@ -18,7 +18,7 @@ function App() {
   // обработчик, который срабатывает когда нажата клавиша Enter
   const search = evt => {
     if (evt.key === 'Enter') {
-      fetch(`https://cors-anywhere.herokuapp.com/${api.base}weather?q=${city}&units=metric&appid=${api.key}`) // отправляем запрос
+      fetch(`${api.base}weather?q=${city}&units=metric&appid=${api.key}`) // отправляем запрос
         .then(res => res.json())  // ответ преобразуем в json
         .then(result => {         // работаем с результатом
           setWeather(result);
