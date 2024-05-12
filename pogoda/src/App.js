@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // доступ к API сервиса погоды
 const api = {
-  key: 'c7616da4b68205c2f3ae73df2c31d177',
+  key: '0f7f756f060db006caa962facceed609',
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 
