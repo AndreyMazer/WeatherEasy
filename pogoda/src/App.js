@@ -50,7 +50,7 @@ function App() {
           <input
             type='text'
             className='search-bar'
-            placeholder='Введите название города'
+            placeholder='Введите город'
             onChange={e => setCity(e.target.value)}
             value={city}
             onKeyPress={e => { if (e.key === 'Enter') search() }}
