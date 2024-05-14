@@ -16,19 +16,17 @@ function App() {
 
 
   // обработчик, который срабатывает когда нажата клавиша Enter
-  const search = evt => {
-    if (evt.key === 'Enter') {
-      fetch(`${api.base}weather?q=${city}&units=metric&appid=${api.key}`) // отправляем запрос
-        .then(res => res.json())  // ответ преобразуем в json
-        .then(result => {         // работаем с результатом
-          setWeather(result);
-          setCity('');
-          console.log(result);
-        })
-        .catch(error => {
-          console.error('Ошибка при выполнении запроса:', error);
-        });
-    }
+  const search = () => {
+    fetch(`${api.base}weather?q=${city}&units=metric&appid=${api.key}`) 
+      .then(res => res.json()) 
+      .then(result => {      
+        setWeather(result);
+        setCity('');
+        console.log(result);
+      })
+      .catch(error => {
+        console.error('Ошибка при выполнении запроса:', error);
+      });
   }
 
   // форматирование даты
@@ -55,8 +53,9 @@ function App() {
             placeholder='Введите название города'
             onChange={e => setCity(e.target.value)}
             value={city}
-            onKeyPress={search}
+            onKeyPress={e => { if (e.key === 'Enter') search() }}
           />
+          <button type="submit" className="search-form__button" aria-label="Поиск города" onClick={search}></button>
         </div>
         {(typeof weather.main != 'undefined') ? (
         <div className='allBox'>

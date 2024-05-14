@@ -9,17 +9,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 100%;
+}
+
 .app {
   width: 100%;
   height: 100%;
-  background-image: url('../fon/холодно.png');
-  background-size: cover;
-  background-position: center;
+  background-image: url('../fon/холодно.jpg');
+  background-size: contain;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
 .app.warm {
-  background-image: url('../fon/класс3.png');
+  background-image: url('../fon/класс.jpg');
 }
 
 .main {
@@ -37,11 +41,13 @@ body {
   width: 70%;
   margin: 25px auto;
   color: black;
+  display: flex;
+  column-gap: 20px;
 }
 
-.search-box .search-bar {
+.search-bar {
   display: block;
-  width: 100%;
+  width: 90%;
   padding: 15px;
   appearance: none;
   background: none;
@@ -52,6 +58,27 @@ body {
   font-size: 20px;
   text-decoration-color: #313131;
   border-radius: 5px;
+}
+
+.search-form__button {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-image: url('../fon/koshka.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.search-form__button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .search-box .search-bar:focus {
@@ -102,4 +129,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
