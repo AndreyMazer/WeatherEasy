@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/WeatherEasy1-main/static/css/main.50e467a1.css",
+    "main.css": "/WeatherEasy1-main/static/css/main.ec4fa627.css",
     "main.js": "/WeatherEasy1-main/static/js/main.2231dc46.js",
     "static/js/453.3f9f735f.chunk.js": "/WeatherEasy1-main/static/js/453.3f9f735f.chunk.js",
     "static/media/холодно.jpg": "/WeatherEasy1-main/static/media/холодно.65c8ac0341dbb43458ed.jpg",
     "static/media/класс.jpg": "/WeatherEasy1-main/static/media/класс.93e4789cd11d1c680074.jpg",
     "static/media/koshka.jpg": "/WeatherEasy1-main/static/media/koshka.fa69fdd51c3c5fcf0ddb.jpg",
     "index.html": "/WeatherEasy1-main/index.html",
-    "main.50e467a1.css.map": "/WeatherEasy1-main/static/css/main.50e467a1.css.map",
+    "main.ec4fa627.css.map": "/WeatherEasy1-main/static/css/main.ec4fa627.css.map",
     "main.2231dc46.js.map": "/WeatherEasy1-main/static/js/main.2231dc46.js.map",
     "453.3f9f735f.chunk.js.map": "/WeatherEasy1-main/static/js/453.3f9f735f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50e467a1.css",
+    "static/css/main.ec4fa627.css",
     "static/js/main.2231dc46.js"
   ]
 }
