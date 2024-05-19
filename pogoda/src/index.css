@@ -54,6 +54,7 @@ body {
 }
 
 .search-bar {
+  width: 90%;
   padding: 15px;
   appearance: none;
   background: none;
