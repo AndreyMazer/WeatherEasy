@@ -78,19 +78,23 @@ body {
 }
 
 .search-form__button {
+  line-height: 50px;
   width: 50px;
   height: 50px;
-  background-color: black;
-  border-radius: 5px;
+  border-radius: 50%;
   border: none;
   outline: none;
-  background-image: url('../fon/koshka.jpg');
+  font-size: 40px;
+  color: #313131;
+  background-color: rgba(255, 255, 255, 0.5);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: opacity 0.3s linear;
 }
 
 .search-form__button:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.6;
 }
 
 .search-bar:focus {
@@ -106,14 +110,14 @@ body {
 }
 
 .location-box .location {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.74);
   font-size: 32px;
   font-weight: 500;
   text-align: center;
 }
 
 .location-box .date {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.74);;
   font-size: 20px;
   font-weight: 300;
   text-align: center;
@@ -129,14 +133,14 @@ body {
   margin: 30px auto;
   border-radius: 16px;
   padding: 15px 25px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.74);;
   font-size: 102px;
   font-weight: 900;
   text-align: center;
 }
 
 .weather-box .weather {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.74);;
   font-size: 48px;
   font-weight: 700;
 }

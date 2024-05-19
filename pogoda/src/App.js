@@ -55,7 +55,7 @@ function App() {
             value={city}
             onKeyPress={e => { if (e.key === 'Enter') search() }}
           />
-          <button type="submit" className="search-form__button" aria-label="Поиск города" onClick={search}></button>
+          <button type="submit" className="search-form__button" aria-label="Поиск города" onClick={search}>&#10054;</button>
         </div>
         {(typeof weather.main != 'undefined') ? (
         <div className='allBox'>
