@@ -45,6 +45,7 @@ body {
 
 .search-box {
   width: 70%;
+  height: 50px;
   margin: 25px auto;
   color: black;
   display: flex;
@@ -91,7 +92,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   transition: opacity 0.3s linear;
-  overflow: hidden;
 }
 
 .search-form__button:hover {
