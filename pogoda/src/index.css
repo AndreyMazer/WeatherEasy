@@ -45,11 +45,13 @@ body {
 
 .search-box {
   display: flex;
-  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
   height: 50px;
   margin: 25px auto;
   color: black;
-  column-gap: 5%;
+  column-gap: 10px;
 }
 
 .search-bar {
