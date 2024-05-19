@@ -45,7 +45,7 @@ body {
 
 .search-box {
   display: grid;
-  grid-template-columns: 85% 10%;
+  grid-template-columns: 90% 10%;
   width: 90%;
   height: 50px;
   margin: 25px auto;
@@ -54,7 +54,6 @@ body {
 }
 
 .search-bar {
-  width: 90%;
   padding: 15px;
   appearance: none;
   background: none;
