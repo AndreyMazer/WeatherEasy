@@ -49,7 +49,7 @@ body {
   height: 50px;
   margin: 25px auto;
   color: black;
-  column-gap: 20px;
+  column-gap: 5%;
 }
 
 .search-bar {
