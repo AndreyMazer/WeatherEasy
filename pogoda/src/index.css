@@ -45,7 +45,6 @@ body {
 
 .search-box {
   display: flex;
-  justify-content: space-between;
   width: 70%;
   height: 50px;
   margin: 25px auto;
