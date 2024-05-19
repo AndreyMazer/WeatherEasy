@@ -51,6 +51,7 @@ body {
   height: 50px;
   margin: 25px auto;
   color: black;
+  column-gap: 10px;
 }
 
 .search-bar {
