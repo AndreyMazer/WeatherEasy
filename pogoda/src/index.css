@@ -80,6 +80,7 @@ body {
 
 .search-form__button {
   line-height: 50px;
+  width: 40px;
   border-radius: 50%;
   border: none;
   outline: none;
