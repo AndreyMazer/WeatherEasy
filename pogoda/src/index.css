@@ -33,7 +33,7 @@ body {
 }
 
 .main {
-  height: 100vw;
+  height: 100vh;
   box-sizing: border-box;
   background-image: linear-gradient(
     to bottom,
@@ -65,6 +65,9 @@ body {
 }
 
 @media screen and (max-width: 530px) {
+  .main {
+    height: 90vh;
+  }
   .search-bar {
     font-size: 15px;
     font-weight: 500;
