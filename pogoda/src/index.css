@@ -70,7 +70,7 @@ body {
     font-weight: 500;   
   }
   .search-box {
-    width: 90%;
+    width: 80%;
     column-gap: 10px;
   }
 }
