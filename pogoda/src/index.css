@@ -31,7 +31,7 @@ body {
 .app.warm {
   background-image: url('../fon/класс.jpg');
 }
-
+/*поехала кнопка*/
 .main {
   height: 100vh;
   max-height: -webkit-fill-available;
@@ -49,15 +49,15 @@ body {
 .search-box {
   display: grid;
   grid-template-columns: 90% 10%;
-  width: 90%;
-  height: 50px;
-  margin: 25px auto;
+  max-width: 85%;
+  max-height: 50px;
+  margin: 25px auto 0 auto;
   color: black;
   column-gap: 20px;
 }
 
 .search-bar {
-  height: 100%;
+  /*height: 100%;*/
   padding-left: 15px;
   border: none;
   outline: none;
@@ -66,6 +66,21 @@ body {
   font-size: 20px;
   text-decoration-color: #313131;
   border-radius: 5px;
+}
+
+.search-form__button {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  /*height: 50px;*/
+  line-height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  color: #313131;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }
 
 @media screen and (max-width: 530px) {
@@ -80,19 +95,10 @@ body {
     width: 80%;
     column-gap: 10px;
   }
-}
-
-.search-form__button {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  font-size: 40px;
-  color: #313131;
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;
+  .search-form__button {
+    width: 40px;
+    font-size: 30px;
+  }
 }
 
 .search-form__button:hover {
