@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/WeatherEasy1-main/static/css/main.2d461783.css",
-    "main.js": "/WeatherEasy1-main/static/js/main.027b1b41.js",
-    "static/js/453.3f9f735f.chunk.js": "/WeatherEasy1-main/static/js/453.3f9f735f.chunk.js",
-    "static/media/холодно.jpg": "/WeatherEasy1-main/static/media/холодно.65c8ac0341dbb43458ed.jpg",
-    "static/media/класс.jpg": "/WeatherEasy1-main/static/media/класс.93e4789cd11d1c680074.jpg",
-    "index.html": "/WeatherEasy1-main/index.html",
-    "main.2d461783.css.map": "/WeatherEasy1-main/static/css/main.2d461783.css.map",
-    "main.027b1b41.js.map": "/WeatherEasy1-main/static/js/main.027b1b41.js.map",
-    "453.3f9f735f.chunk.js.map": "/WeatherEasy1-main/static/js/453.3f9f735f.chunk.js.map"
+    "main.css": "/WeatherEasy/static/css/main.12473d1a.css",
+    "main.js": "/WeatherEasy/static/js/main.5855ccc3.js",
+    "static/js/453.3f9f735f.chunk.js": "/WeatherEasy/static/js/453.3f9f735f.chunk.js",
+    "static/media/холодно.jpg": "/WeatherEasy/static/media/холодно.65c8ac0341dbb43458ed.jpg",
+    "static/media/класс.jpg": "/WeatherEasy/static/media/класс.93e4789cd11d1c680074.jpg",
+    "index.html": "/WeatherEasy/index.html",
+    "main.12473d1a.css.map": "/WeatherEasy/static/css/main.12473d1a.css.map",
+    "main.5855ccc3.js.map": "/WeatherEasy/static/js/main.5855ccc3.js.map",
+    "453.3f9f735f.chunk.js.map": "/WeatherEasy/static/js/453.3f9f735f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d461783.css",
-    "static/js/main.027b1b41.js"
+    "static/css/main.12473d1a.css",
+    "static/js/main.5855ccc3.js"
   ]
 }
