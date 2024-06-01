@@ -51,7 +51,7 @@ body {
   grid-template-columns: 90% 10%;
   max-width: 85%;
   max-height: 50px;
-  margin: 25px auto 0 auto;
+  margin: 25px auto;
   color: black;
   column-gap: 20px;
 }
