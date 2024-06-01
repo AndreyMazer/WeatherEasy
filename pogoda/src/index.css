@@ -31,7 +31,7 @@ body {
 .app.warm {
   background-image: url('../fon/класс.jpg');
 }
-/*поехала кнопка*/
+
 .main {
   height: 100vh;
   max-height: -webkit-fill-available;
