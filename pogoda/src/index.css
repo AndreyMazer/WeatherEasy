@@ -83,24 +83,6 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 530px) {
-  .main {
-    height: 90vh;
-  }
-  .search-bar {
-    font-size: 15px;
-    font-weight: 500;
-  }
-  .search-box {
-    width: 80%;
-    column-gap: 10px;
-  }
-  .search-form__button {
-    width: 40px;
-    font-size: 30px;
-  }
-}
-
 .search-form__button:hover {
   opacity: 0.6;
 }
@@ -156,4 +138,30 @@ body {
 .allBox {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 880px) {
+  .main {
+    height: 90vh;
+  }
+
+  .search-bar {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .search-box {
+    width: 80%;
+    column-gap: 10px;
+  }
+
+  .search-form__button {
+    width: 40px;
+    font-size: 30px;
+  }
+
+  .weather-box .temp {
+    margin: 0 auto;
+    font-size: 70px;
+  } 
 }
